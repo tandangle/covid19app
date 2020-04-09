@@ -1,0 +1,7 @@
+#calcform, #output{
+    padding: 10px;
+    margin: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: grey;
+}
