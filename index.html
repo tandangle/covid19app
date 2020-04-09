@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head><!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8"/>
+<title>Welcome to the Covid Calculator</title>
+</head>
+​<body>
+<h1>Covid Calculator</h1>
+<form action="" id="covidcreditcalculator" onsubmit="return false;">
+    <fieldset>
+<legend>Calculate the Credit for the User</legend>
+  
+    <label for="ZD">Enter the ZD:</label>
+    <input type="Number" placeholder="Zendesk Ticket Number" id="ZD" name="ZD"><br><br>
+    <label for="Current Monthly Bill">Current Monthly Bill:</label>
+    <input type="number" placeholder="User's Last Bill" step="0.01" min="0" max="100000" id="Bill" name="Bill" ><br><br>
+    <label for="Months to Credit">Months to credit</label>
+    <input type="Number" id="months" name="months"><br><br>
+    <input type="submit" value="Calculate the Credit" id="calculate">
+</fieldset>
+</form>
+​
+<h1>Credit Amount(USD):</h1>
+<div id="amount"></div>
+</br>
+</br>
+<h1>Can:</h1>
+</br>
+<div id="can"></div>
+</br>
+</br>
+<h1>MCAdmin Note:</h1>
+</br>
+<div id="mca"></div>
+​
+​
+​
+​
+​
+<script src="script.js"></script>
+​</body>
+</html>
